@@ -1,3 +1,14 @@
 # Sense
 
-An algorithm using NLP techniques to detect severity of mental illness of Reddit posts
+A NLP algorithm using Sci-kit Learn and NLTK to detect severity of mental illness in Reddit posts.
+
+### Process
+* read data
+* sampled data to reduce runtime due to limited resources
+* perfomed expoloratory data analysis
+* transformed text data into a bad of words by vectorizing each message
+* applied TF-IDF metric to determine term importance in corpus
+* split messages into training and testing set
+* trained Random Forest Classifier model with n_estimators=300 after testing various values
+
+Achieved an overall **accuracy of 75% in classifying 3 categories**.
