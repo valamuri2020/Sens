@@ -12,3 +12,6 @@ A NLP algorithm using Sci-kit Learn and NLTK to detect severity of mental illnes
 * trained Random Forest Classifier model with n_estimators=300 after testing various values
 
 Achieved an overall **accuracy of 75% in classifying 3 categories**.
+
+
+
